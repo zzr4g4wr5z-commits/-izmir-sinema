@@ -1,1 +1,17 @@
-{"name":"izmir-sinema","version":"1.0.0","private":true,"main":"server.js","scripts":{"start":"node server.js"},"engines":{"node":">=20"},"dependencies":{"express":"^4.21.2"}}
+{
+  "name": "izmir-sinema",
+  "version": "1.2.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "collect": "node collector.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "cheerio": "1.0.0"
+  }
+}
