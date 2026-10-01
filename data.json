@@ -1,1 +1,501 @@
-{"cinemas":[],"films":[],"showtimes":[],"prices":[]}
+{
+  "cinemas": [
+    {
+      "id": 1,
+      "name": "Paribu Cineverse MaviBahçe",
+      "district": "Karşıyaka",
+      "address": "Mavişehir Mahallesi, Caher Dudayev Blv, 35540 Karşıyaka/İzmir",
+      "sourceUrl": "https://www.paribucineverse.com/sinemalar/mavibahce",
+      "verified": true
+    },
+    {
+      "id": 2,
+      "name": "Paribu Cineverse İzmir Park",
+      "district": "Konak",
+      "address": "Güneşli Mahallesi Eşref Paşa Caddesi No:408, Konak/İzmir",
+      "sourceUrl": "https://www.paribucineverse.com/sinemalar/izmir-park",
+      "verified": true
+    },
+    {
+      "id": 3,
+      "name": "Karaca Sineması",
+      "district": "Konak",
+      "address": "Şevket Özçelik Sk. No:55/B, Alsancak, Konak/İzmir",
+      "sourceUrl": "",
+      "verified": false
+    },
+    {
+      "id": 4,
+      "name": "Paribu Cineverse Konak Pier",
+      "district": "Konak",
+      "address": "Pier AVM, Atatürk Cd. No:19, Konak/İzmir",
+      "sourceUrl": "https://www.paribucineverse.com/sinemalar/konak-pier",
+      "verified": false,
+      "status": "Temporarily Closed"
+    },
+    {
+      "id": 5,
+      "name": "Agora Sinemaları",
+      "district": "Balçova",
+      "address": "Mithatpaşa Cd. No:1444, Balçova/İzmir",
+      "sourceUrl": "",
+      "verified": false
+    },
+    {
+      "id": 6,
+      "name": "İstinyePark Renk Sinemaları",
+      "district": "Balçova",
+      "address": "İstinyePark İzmir, Balçova/İzmir",
+      "sourceUrl": "",
+      "verified": false
+    },
+    {
+      "id": 7,
+      "name": "Paribu Cineverse Forum Bornova",
+      "district": "Bornova",
+      "address": "Forum Bornova AVM, Kazım Dirik Mah. 372 Sok. F1 Blok, Bornova/İzmir",
+      "sourceUrl": "https://www.paribucineverse.com/sinemalar/forum-bornova",
+      "verified": true
+    },
+    {
+      "id": 8,
+      "name": "Paribu Cineverse Point Bornova",
+      "district": "Bornova",
+      "address": "4174 Sokak No:4 Bağburnu Mevkii, Bornova/İzmir",
+      "sourceUrl": "https://www.paribucineverse.com/sinemalar/point-bornova",
+      "verified": false
+    },
+    {
+      "id": 9,
+      "name": "Cinehouse İzmir",
+      "district": "Bornova",
+      "address": "Kazımdirik, Süvari Cd. No:52, Bornova/İzmir",
+      "sourceUrl": "",
+      "verified": false
+    }
+  ],
+  "films": [
+    {
+      "id": 1,
+      "title": "İsyan",
+      "originalTitle": "Mutiny"
+    },
+    {
+      "id": 2,
+      "title": "The Odyssey",
+      "originalTitle": "The Odyssey"
+    },
+    {
+      "id": 3,
+      "title": "Örümcek-Adam: Yepyeni Bir Gün",
+      "originalTitle": "Spider-Man: Brand New Day"
+    },
+    {
+      "id": 4,
+      "title": "Avengers: Endgame Encore",
+      "originalTitle": "Avengers: Endgame Encore"
+    },
+    {
+      "id": 5,
+      "title": "Linkin Park: Unshatter",
+      "originalTitle": "Linkin Park: Unshatter"
+    },
+    {
+      "id": 6,
+      "title": "Resident Evil",
+      "originalTitle": "Resident Evil"
+    }
+  ],
+  "showtimes": [
+    {
+      "id": "1-1-1220",
+      "cinemaId": 1,
+      "filmId": 1,
+      "date": "2026-10-01",
+      "time": "12:20",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "1-1-1430",
+      "cinemaId": 1,
+      "filmId": 1,
+      "date": "2026-10-01",
+      "time": "14:30",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "1-1-1640",
+      "cinemaId": 1,
+      "filmId": 1,
+      "date": "2026-10-01",
+      "time": "16:40",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "1-1-1850",
+      "cinemaId": 1,
+      "filmId": 1,
+      "date": "2026-10-01",
+      "time": "18:50",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "1-1-2100",
+      "cinemaId": 1,
+      "filmId": 1,
+      "date": "2026-10-01",
+      "time": "21:00",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "1-1-2200",
+      "cinemaId": 1,
+      "filmId": 1,
+      "date": "2026-10-01",
+      "time": "22:00",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "1-2-1435",
+      "cinemaId": 1,
+      "filmId": 2,
+      "date": "2026-10-01",
+      "time": "14:35",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "1-2-2155",
+      "cinemaId": 1,
+      "filmId": 2,
+      "date": "2026-10-01",
+      "time": "21:55",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "1-3-1315",
+      "cinemaId": 1,
+      "filmId": 3,
+      "date": "2026-10-01",
+      "time": "13:15",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "1-3-1835",
+      "cinemaId": 1,
+      "filmId": 3,
+      "date": "2026-10-01",
+      "time": "18:35",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "1-4-1050",
+      "cinemaId": 1,
+      "filmId": 4,
+      "date": "2026-10-01",
+      "time": "10:50",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "1-4-1810",
+      "cinemaId": 1,
+      "filmId": 4,
+      "date": "2026-10-01",
+      "time": "18:10",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "2-1-1240",
+      "cinemaId": 2,
+      "filmId": 1,
+      "date": "2026-10-01",
+      "time": "12:40",
+      "format": "2D - DUBLAJLI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "2-1-1700",
+      "cinemaId": 2,
+      "filmId": 1,
+      "date": "2026-10-01",
+      "time": "17:00",
+      "format": "2D - DUBLAJLI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "2-1-2125",
+      "cinemaId": 2,
+      "filmId": 1,
+      "date": "2026-10-01",
+      "time": "21:25",
+      "format": "2D - DUBLAJLI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "2-1-1450",
+      "cinemaId": 2,
+      "filmId": 1,
+      "date": "2026-10-01",
+      "time": "14:50",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "2-1-1915",
+      "cinemaId": 2,
+      "filmId": 1,
+      "date": "2026-10-01",
+      "time": "19:15",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "7-5-1235",
+      "cinemaId": 7,
+      "filmId": 5,
+      "date": "2026-10-01",
+      "time": "12:35",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "7-5-1925",
+      "cinemaId": 7,
+      "filmId": 5,
+      "date": "2026-10-01",
+      "time": "19:25",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "7-5-2155",
+      "cinemaId": 7,
+      "filmId": 5,
+      "date": "2026-10-01",
+      "time": "21:55",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "7-4-1045",
+      "cinemaId": 7,
+      "filmId": 4,
+      "date": "2026-10-01",
+      "time": "10:45",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "7-4-1430",
+      "cinemaId": 7,
+      "filmId": 4,
+      "date": "2026-10-01",
+      "time": "14:30",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "7-4-1815",
+      "cinemaId": 7,
+      "filmId": 4,
+      "date": "2026-10-01",
+      "time": "18:15",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "7-4-2055",
+      "cinemaId": 7,
+      "filmId": 4,
+      "date": "2026-10-01",
+      "time": "20:55",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "7-1-1200",
+      "cinemaId": 7,
+      "filmId": 1,
+      "date": "2026-10-01",
+      "time": "12:00",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "7-1-1415",
+      "cinemaId": 7,
+      "filmId": 1,
+      "date": "2026-10-01",
+      "time": "14:15",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "7-1-1630",
+      "cinemaId": 7,
+      "filmId": 1,
+      "date": "2026-10-01",
+      "time": "16:30",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "7-1-1845",
+      "cinemaId": 7,
+      "filmId": 1,
+      "date": "2026-10-01",
+      "time": "18:45",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "7-1-2100",
+      "cinemaId": 7,
+      "filmId": 1,
+      "date": "2026-10-01",
+      "time": "21:00",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "7-6-1220",
+      "cinemaId": 7,
+      "filmId": 6,
+      "date": "2026-10-01",
+      "time": "12:20",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "7-6-1430",
+      "cinemaId": 7,
+      "filmId": 6,
+      "date": "2026-10-01",
+      "time": "14:30",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "7-6-1640",
+      "cinemaId": 7,
+      "filmId": 6,
+      "date": "2026-10-01",
+      "time": "16:40",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "7-6-1850",
+      "cinemaId": 7,
+      "filmId": 6,
+      "date": "2026-10-01",
+      "time": "18:50",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "7-6-2100",
+      "cinemaId": 7,
+      "filmId": 6,
+      "date": "2026-10-01",
+      "time": "21:00",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "7-3-1130",
+      "cinemaId": 7,
+      "filmId": 3,
+      "date": "2026-10-01",
+      "time": "11:30",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "7-3-1435",
+      "cinemaId": 7,
+      "filmId": 3,
+      "date": "2026-10-01",
+      "time": "14:35",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "7-3-1740",
+      "cinemaId": 7,
+      "filmId": 3,
+      "date": "2026-10-01",
+      "time": "17:40",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "7-3-2200",
+      "cinemaId": 7,
+      "filmId": 3,
+      "date": "2026-10-01",
+      "time": "22:00",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "7-2-1755",
+      "cinemaId": 7,
+      "filmId": 2,
+      "date": "2026-10-01",
+      "time": "17:55",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "7-2-2130",
+      "cinemaId": 7,
+      "filmId": 2,
+      "date": "2026-10-01",
+      "time": "21:30",
+      "format": "2D - ALTYAZILI",
+      "sourceCheckedAt": "2026-10-01T09:00:00Z"
+    }
+  ],
+  "prices": [
+    {
+      "id": 1,
+      "cinemaId": 1,
+      "filmId": 2,
+      "date": "2026-10-01",
+      "format": "2D - ALTYAZILI",
+      "ticketType": "full",
+      "amount": 435,
+      "currency": "TRY",
+      "sourceUrl": "https://biletlink.co/etkinlik/the-odyssey-c229ddb5",
+      "verified": true,
+      "checkedAt": "2026-10-01T09:00:00Z",
+      "note": "BiletLink derlemesi; koltuk kategorisine göre değişebilir."
+    },
+    {
+      "id": 2,
+      "cinemaId": 2,
+      "filmId": 1,
+      "date": "2026-10-01",
+      "format": "2D - DUBLAJLI",
+      "ticketType": "full",
+      "amount": 210,
+      "currency": "TRY",
+      "sourceUrl": "https://biletlink.co/etkinlik/kartopu-oyunlari-izmir-park-5eb32e5e",
+      "verified": false,
+      "checkedAt": "2026-10-01T09:00:00Z",
+      "note": "Bu kayıt başka bir film etkinliği sayfasındaki güncel fiyat örneğidir; İsyan fiyatı değildir."
+    }
+  ]
+}
